@@ -26,7 +26,7 @@ if __name__ == "__main__":
     
     x = cramer(M, b)
     print("x using cramer's rule: \n", x)
-    print("x using reversed matrix: \n", np.matmul(np.linalg.inv(M), b.T))
+    # print("x using reversed matrix: \n", np.matmul(np.linalg.inv(M), b.T))
     
 
 
